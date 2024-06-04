@@ -1,0 +1,13 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tw:watch": "tailwindcss -i ./src/styles/global.css -o ./src/styles/index.css --watch",
+    "tw:build": "tailwindcss -i ./src/styles/global.css -o ./src/styles/index.min.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
